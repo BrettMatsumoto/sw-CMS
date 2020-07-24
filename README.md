@@ -14,3 +14,7 @@ Project End Date: TBD
 -Successfully created migrations and seeds using knex.
 
 -Unable to run migrations and seeds, received error: password authentication failed for my username.
+
+7/23/2020
+
+-error in password authentication seems to be caused by invalid config pathing in the knexfile.js file when i required in 'dotenv'. || .config({ path: '../.env' }) was changed to .config({ path: './.env' }).
