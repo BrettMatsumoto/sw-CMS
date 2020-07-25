@@ -20,3 +20,7 @@ Project End Date: TBD
 -error in password authentication seems to be caused by invalid config pathing in the knexfile.js file when i required in 'dotenv'. || .config({ path: '../.env' }) was changed to .config({ path: './.env' }).
 
 -realized migrations were not created in the proper order so I had to drop the database, recreate the database in psql, and re-run the migrations in proper order so that posts could have a foreign key relation to users.
+
+7/24/2020
+
+-no progress today {focused on javascript exercises}
