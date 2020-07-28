@@ -17,7 +17,7 @@ class User extends bookshelf.Model {
     }
 
     posts() {
-        return this.hasMany('Posts', 'post_id');
+        return this.hasMany('Posts', 'user_id');
     }
 }
 
