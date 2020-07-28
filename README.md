@@ -24,3 +24,9 @@ Project End Date: TBD
 7/24/2020
 
 -no progress today {focused on javascript exercises}
+
+7/27/2020
+
+-created database models using bookshelf.js. Later fixed User model to have many posts based on user_id rather than post_id.
+
+-started to create routes for users and posts. Successfully able to get all users and users by user_id with related data from the bookshelf ORM.
